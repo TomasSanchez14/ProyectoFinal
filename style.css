@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body{
+    background-color: #f8f8f8;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    min-height: 100vh;
+    font-family: 'Nunito', sans-serif;
+}
+/** ENCABEZADO **/
+header{
+    background-color: #464246;
+    width: 100%;
+    height: 300px;
+}
+
+.menu{
+    display: flex;
+    justify-content: center;
+}
+.menu li{
+    display: inline-block;
+    justify-content: center;
+    list-style: none;
+    margin-top: 45px;
+}
+.menu a{
+    text-decoration: none;
+    margin: 30px;
+    color: #ffffff;
+    font-size: 17px;
+}
+.menu a:hover{
+    border-bottom: solid 4px #a5b9b9;
+}
+
+/** PRINCIPAL INDEX**/
+.padre{
+    background-color: #ffffff;
+    width: 720px;
+    height: 430px;
+    margin: auto;
+    margin-top: -200px;
+}
+.foto{
+    display: flex;
+    justify-content: center;
+}
+.foto img{
+    width: 160px;
+    border-radius: 50%;
+    border: 1px solid #464246;
+    padding: 3px;
+    margin-top: 20px;
+}
+.foto img:hover{
+    transform: scale(1.1);
+}
+.nombre{
+    display: flex;
+    justify-content: center;
+}
+.nombre h1{
+    margin-top: 10px;
+}
+.sobre-mi{
+    display: block;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.sobre-mi p{
+    color: #464246;
+    opacity: 80%;
+}
+.iconos{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding: 30px;
+}
+.iconos i{
+    font-size: 23px;
+}
+.iconos i:hover{
+    color: #1e90ff;
+    border-bottom: solid 3px #1e90ff;
+}
+
+.txt-icono{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 15px;
+    font-size: 25px;
+}
+
+/**PRINCIPAL HABILIDADES**/
+.front-end{
+    display: flex;
+    justify-content: space-between;
+    width: 25%;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+    height: 100px;
+}
+.bx-chevron-right{
+    width: 80px;
+    padding: 5px;
+}
+#btn-front{
+    border: none;
+    background-color: #ffffff;
+}
+.bx-chevron-right{
+    width: 20px;
+}
+.img-front{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+}
+.img-front img{
+    width: 50%;
+}
+/**IMAGEN BACK END**/
+.img-back{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+}
+.img-back img{
+    width: 50%;
+}
+/**IMAGEN PROGRAMACION**/
+.img-programacion{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+}
+.img-programacion img{
+    width: 90%;
+}
+/**IMAGEN HERRAMIETAS COMPLETARIAS**/
+.img-herramientas{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+}
+.img-herramientas img{
+    width: 80%;
+}
+
+/** MAIN DE LA HOJA DE ESTUDIOS**/
+.universidad{
+    padding: 25px;
+
+}
+.division-1{
+    border: solid 0.5px #171515;
+    width: 100%;
+}
+.datos{
+    display: flex;
+    justify-content: space-between;
+}
+.cursos{
+    padding: 25px;
+
+}
+.division-2{
+    border: solid 0.5px #171515;
+    width: 100%;
+}
+.datos{
+    display: flex;
+    justify-content: space-between;
+}
+
+/** FOOTER **/
+footer{
+    background-color: #cabcb0;
+    width: 100%;
+    height: 50px;
+}
+.iconos-footer{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 50%;
+    position: fixed;
+    margin-left: 10px;
+}
+.iconos-footer i{
+    font-size: 20px;
+    padding: 13px;
+}
+.derechos{
+    display: flex;
+    justify-content: flex-end;
+}
+.derechos a{
+    padding: 13px;
+}
+.bxl-facebook{
+    color: #3b5998;
+}
+.bxl-instagram{
+    color: #dc143c;
+}
+.bxl-github{
+    color: #171515;
+}
+.bxl-twitter{
+    color: #00acee;
+}
+.bxl-whatsapp{
+    color: #075E54;
+}
+.bxl-linkedin{
+    color: #0e76a8;
+}
