@@ -7,7 +7,8 @@ function agregarImg(idBoton, imgNueva, contenedor) {
         });
 }
 
-agregarImg('flecha','<img src="../images/logitos.png" alt="">', 'cont-1');
-agregarImg('flecha-1', '<img src="../images/backend.png" alt="">', 'cont-2');
-agregarImg('flecha-2', '<img src="../images/programacion1.png" alt="">','cont-3');
-agregarImg('flecha-3', '<img src="../images/git.png" alt="">','cont-4');
+let texto = "../"
+agregarImg('flecha','<img src="'+ texto +'images/logitos.png" alt="">', 'cont-1');
+agregarImg('flecha-1', '<img src="'+ texto +'images/backend.png" alt="">', 'cont-2');
+agregarImg('flecha-2', '<img src="'+ texto +'images/programacion1.png" alt="">','cont-3');
+agregarImg('flecha-3', '<img src="'+ texto +'images/git.png" alt="">','cont-4');
